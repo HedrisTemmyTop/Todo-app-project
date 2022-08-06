@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <script defer src="./script.js"></script>
+    <title>Frontend Mentor | Todo app</title>
+  </head>
+  <body class="light">
+    <section class="whole">
+      <section class="head">
+        <header class="header">
+          <h2 class="header__head">TODO</h2>
+          <img src="./images/icon-sun.svg" alt="" class="header__toggle" />
+        </header>
+        <form class="form">
+          <button class="button light"></button>
+          <input
+            type="text"
+            class="form__input light"
+            placeholder="Create a todo....."
+          />
+        </form>
+
+        <ul class="todoList light"></ul>
+        <div class="list light">
+          <span class="list__length">0 items left</span>
+          <div class="list__category">
+            <span class="list__length active">All</span
+            ><span class="list__length">Active</span
+            ><span class="list__length complete">Completed</span>
+          </div>
+          <span class="list__length">Clear Completed</span>
+        </div>
+      </section>
+    </section>
+  </body>
+</html>
